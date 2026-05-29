@@ -14,10 +14,9 @@ The script process_glads_gl.py is designed to give a list of primary subglacial 
 ## Running the script
 
 ### Dependencies
-Install the required Python packages via conda (recommended):
+The script requires `meshio` and `pyproj`. Install via conda:
 ```bash
-conda create -n glads -c conda-forge meshio pyproj -y
-conda activate glads
+conda install -c conda-forge meshio pyproj
 ```
 
 ### Basic usage
