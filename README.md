@@ -9,9 +9,10 @@ https://zenodo.org/records/14874036
 
 The current .vtu file adds combined channel and distributed fluxes across the grounding line. This was processed within the Elmer framework.
 
-The script process_glads_gl.py is designed to give a list of primary subglacial outflow locations and their coordinates.
 
-## Running the script
+## Subglacial outflow script
+
+The script process_glads_gl.py is designed to give a list of primary subglacial outflow locations and their coordinates.
 
 ### Dependencies
 The script requires `meshio` and `pyproj`, installable via pip or conda:
